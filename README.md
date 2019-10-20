@@ -30,6 +30,16 @@ export TENSORFLOW_SRC_PATH=/path/to/tensorflow
 python setup.py install
 ```
 
+## Dataset
+
+Download synthetic chinese string dataset from Baidu Yun: https://pan.baidu.com/s/1IhAx4oogNSGJ1Kxzc_QfPg&shfl=sharepset password: t96p
+
+For this project, you need prepare file_list.txt, the format of each line as bellow.
+```
+/home/path/to/dataset/images/xxxxxx.jpg xxxxx
+in python code it is: path_to_image + '\t' + label_string + '\n'
+```
+
 ## Usage
 
 ### Training

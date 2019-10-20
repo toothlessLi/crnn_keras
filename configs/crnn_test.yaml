@@ -1,0 +1,5 @@
+#
+TEST_LIST: ./data/val_list.txt
+CHARSET: ./data/charset_zh_5989.txt
+IMAGE_SIZE: 32,720,3  # H, W, C
+WEIGHT: ./results/weights-01.h5

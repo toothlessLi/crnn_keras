@@ -1,0 +1,10 @@
+#
+TRAIN_LIST: ./data/train_list.txt
+VAL_LIST: ./data/val_list.txt
+CHARSET: ./data/charset_zh_5989.txt
+IMAGE_SIZE: 32,280,3  # H, W, C
+MAX_LABEL_LENGTH: 30
+EPOCHS: 50
+TRAIN_BATCH_SIZE: 32
+VAL_BATCH_SIZE: 4
+SAVE_DIR: ./results

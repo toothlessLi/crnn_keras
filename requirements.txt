@@ -2,6 +2,6 @@ tensorflow-gpu>=1.8.0
 keras>=2.1.6
 tqdm==4.31.1
 PyYAML==5.1
-opencv-python==4.0.1.25
+opencv-python==4.1.1.26
 h5py>=2.9.0
 easydict==1.9
